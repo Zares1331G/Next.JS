@@ -5,6 +5,5 @@ export default function ProductItem() {
   const {
     query: { productId },
   } = useRouter();
-
-  return <div>Esta es la pagina de prueba del producto: {productId}</div>;
+  return <h1>Esta es la pagina solo del producto: {productId}</h1>;
 }
